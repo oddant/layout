@@ -1,1 +1,14 @@
-<b>test</b>
+Hello,
+This is the starting files of my website structure,
+I'd appreciate to have feeds back !
+If you want to join me in this project please send me a message.
+
+Where to start ?
+	Consider the '.htaccess' file which contains mod_rewrite rules,
+	the rules check for the first segment of the path and the second respectively referring to the language and the path to the content to load (e.g. the page).
+
+	The 'struct.php' file is where all the magic happens,
+	it handles the GET variable sent from the mod_rewrite directives and load the common parts shared between all the webpages of the site.
+
+What is my request ?
+	I feel comfortable with this structure but since I'm new to mod_rewrite and I'm used to work single on my projects, I'd like to share with people in order to learn more about each methods and ways of creating website layouts. 
