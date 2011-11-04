@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^([a-zA-Z]*)/?$ struct.php?hl=$1&page=home [L]
+    RewriteRule ^([a-zA-Z]*)/(.*)$ struct.php?hl=$1&page=$2 [L]
+</IfModule>
